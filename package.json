@@ -1,0 +1,32 @@
+{
+  "name": "@lunjs/caller-path",
+  "version": "0.1.0",
+  "description": "Get the file path of the caller function",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunjs/caller-path.git"
+  },
+  "keywords": [
+    "caller",
+    "path",
+    "function",
+    "error",
+    "stacktrace",
+    "file"
+  ],
+  "author": "jKey Lu <jkeylu@gmail.com> (https://github.com/jkeylu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunjs/caller-path/issues"
+  },
+  "homepage": "https://github.com/lunjs/caller-path#readme"
+}
