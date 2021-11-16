@@ -1,5 +1,5 @@
 
-function callerPath(options) {
+export function callerPath(options) {
   options = options || {};
 
   const shift = options.shift > 0 ? options.shift : 0;
@@ -51,7 +51,3 @@ function createExcludeFilter(excludes, endsWith) {
     return false;
   });
 }
-
-module.exports = {
-  callerPath
-};
