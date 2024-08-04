@@ -1,11 +1,11 @@
-# @lunjs/caller-path
+# @gulujs/caller-path
 
 > Get the path of the caller function
 
 ## Installation
 
 ```sh
-npm install @lunjs/caller-path
+npm install @gulujs/caller-path
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install @lunjs/caller-path
 
 ```js
 // main.js
-const { callerPath } = require('@lunjs/cller-path');
+const { callerPath } = require('@gulujs/cller-path');
 function main() {
   console.log(callerPath());
 }
@@ -25,7 +25,7 @@ main(); // => /full/path/to/main.js
 
 ```js
 // foo.js
-const { callerPath } = require('@lunjs/cller-path');
+const { callerPath } = require('@gulujs/cller-path');
 function foo() {
   console.log(callerPath({ shift: 1 }))
 }

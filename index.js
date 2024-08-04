@@ -13,7 +13,7 @@ export function callerPath(options) {
   Error.prepareStackTrace = prepareStackTrace;
 
   if (options.debug) {
-    console.log('\x1b[33m%s\x1b[0m\n%s\n', `[@lunjs/caller-path]:`, stack.map(it => `${it.getFunctionName()}\t${it.getFileName()}`).join('\n'));
+    console.log('\x1b[33m%s\x1b[0m\n%s\n', `[@gulujs/caller-path]:`, stack.map(it => `${it.getFunctionName()}\t${it.getFileName()}`).join('\n'));
   }
 
   for (let i = 1 + shift; i < stack.length; i++) {

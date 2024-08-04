@@ -1,5 +1,5 @@
 {
-  "name": "@lunjs/caller-path",
+  "name": "@gulujs/caller-path",
   "version": "0.2.0",
   "description": "Get the file path of the caller function",
   "type": "module",
@@ -10,11 +10,11 @@
     "index.d.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run --silent"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lunjs/caller-path.git"
+    "url": "git+https://github.com/gulujs/caller-path.git"
   },
   "keywords": [
     "caller",
@@ -27,7 +27,10 @@
   "author": "jKey Lu <jkeylu@gmail.com> (https://github.com/jkeylu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lunjs/caller-path/issues"
+    "url": "https://github.com/gulujs/caller-path/issues"
   },
-  "homepage": "https://github.com/lunjs/caller-path#readme"
+  "homepage": "https://github.com/gulujs/caller-path#readme",
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
 }
